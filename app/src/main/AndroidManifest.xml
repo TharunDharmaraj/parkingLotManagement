@@ -14,11 +14,21 @@
         android:theme="@style/Theme.ParkingLotManagement"
         tools:targetApi="31">
         <activity
+            android:name=".dialogAlertSignout"
+            android:exported="false" />
+        <activity
+            android:name=".dialogAlertVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".enterNumber"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

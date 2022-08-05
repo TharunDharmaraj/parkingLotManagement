@@ -5,7 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/dark_bg"
-    tools:context=".login">
+    tools:context=".enterNumber">
+
+    <ImageView
+        android:id="@+id/logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/logout_icon" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -35,26 +43,27 @@
     <RelativeLayout
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
 
         <TextView
-            android:id="@+id/login_text"
+            android:id="@+id/parking_lot_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:fontFamily="@font/montserrat"
-            android:text="@string/login_text"
+            android:text="@string/parking_name"
             android:textSize="25dp"
             android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/username"
+            android:id="@+id/add_vehicle_no"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/login_text"
+            android:layout_below="@+id/parking_lot_name"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
-            android:hint="@string/username_hint"
+            android:hint="@string/add_vehicle_field"
             android:textColorHint="@color/white"
             app:boxCornerRadiusBottomEnd="10dp"
             app:boxCornerRadiusBottomStart="10dp"
@@ -65,62 +74,34 @@
             app:hintTextColor="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/txtUsername"
+                android:id="@+id/vehicle_plate"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fontFamily="@font/montserrat"
-                android:inputType="text"
+                android:inputType="textCapCharacters"
                 android:textColor="@color/white"
-                android:textColorHint="@color/black"
-                android:textSize="18sp"
-                tools:ignore="TextContrastCheck" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/password"
-            android:layout_width="320dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/username"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="25dp"
-            android:hint="@string/password_hint"
-            android:textColorHint="@color/white"
-            app:boxCornerRadiusBottomEnd="10dp"
-            app:boxCornerRadiusBottomStart="10dp"
-            app:boxCornerRadiusTopEnd="10dp"
-            app:boxCornerRadiusTopStart="10dp"
-            app:boxStrokeColor="@color/black"
-            app:boxStrokeWidth="0dp"
-            app:endIconMode="password_toggle"
-            app:hintTextColor="@color/white"
-            app:passwordToggleTint="@color/black">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/txtPassword"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:fontFamily="@font/montserrat"
-                android:inputType="textPassword"
-                android:textColor="@color/white"
+                android:maxLength="13"
                 android:textColorHint="@color/black"
                 android:textSize="18sp"
                 tools:ignore="TextContrastCheck" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnAdd"
             android:layout_width="320dp"
             android:layout_height="52dp"
-            android:layout_below="@+id/password"
+            android:layout_below="@+id/add_vehicle_no"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="50dp"
             android:background="@drawable/my_button"
             android:fontFamily="@font/montserrat"
-            android:text="@string/login"
+            android:text="@string/add"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textStyle="bold"
             app:cornerRadius="10dp"
             tools:ignore="TextContrastCheck" />
     </RelativeLayout>
+
+
 </RelativeLayout>

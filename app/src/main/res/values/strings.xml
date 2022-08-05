@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Parking Lot Management</string>
+    <string name="login_text">login to proceed</string>
+    <string name="username_hint">username</string>
+    <string name="password_hint">password</string>
+    <string name="login">login</string>
+    <string name="parking_name">Rajamurugan Parking</string>
+    <string name="add_vehicle_field">Add vehicle no</string>
+    <string name="add">Add</string>
+    <string name="vehicle_no">vehicle no:</string>
+    <string name="in_time">in time:</string>
+    <string name="out_time">out time:</string>
+    <string name="cost">cost:</string>
+    <string name="xxxx">xxxx</string>
+    <string name="check_out">check out</string>
+    <string name="cancel">cancel</string>
+    <string name="logout_dialog_title">logout?</string>
+    <string name="logout_from">logout from</string>
+    <string name="logout">logout</string>
+    <string name="parking_name_qn">Rajamurugan Parking?</string>
+
 </resources>

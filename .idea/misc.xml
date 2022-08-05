@@ -4,9 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.106" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/drawable/cancel_btn_bg.xml" value="0.1235" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/drawable/dark_bg.xml" value="0.1" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/drawable/dialog_box_bg.xml" value="0.1385" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/drawable/ic_launcher_background.xml" value="0.106" />
-        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/drawable/logout_icon.xml" value="0.1" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/drawable/my_button.xml" value="0.1385" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/font/montserrat.xml" value="0.2140625" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/layout-v21/activity_dialog_alert_vehicle.xml" value="0.1" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/layout/activity_dialog_alert_signout.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/layout/activity_dialog_alert_vehicle.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/layout/activity_enter_number.xml" value="0.12" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/layout/activity_main.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/tharu/AndroidStudioProjects/parkingLotManagement/app/src/main/res/layout/cancel_btn_bg.xml" value="0.18385416666666668" />
       </map>
     </option>
   </component>
